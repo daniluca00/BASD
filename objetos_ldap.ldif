@@ -1,0 +1,64 @@
+#Crear UOs
+dn: ou=Comunicacion,dc=general,dc=local
+objectClass: organizationalUnit
+ou: Comunicacion
+
+#Create LDAP Users
+dn: uid=user01,ou=Comunicacion,dc=general,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Usuario 01 Comunicacion
+sn: user01
+displayName: Usuario 01 Comunicacion
+givenName: Comunicacion
+mail: user01@general.local
+userPassword: Gener@l01.2022
+
+dn: uid=user02,ou=Comunicacion,dc=general,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Usuario 02 Comunicacion
+sn: user02
+displayName: Usuario 02 Comunicacion
+givenName: Comunicacion
+mail: user01@general.local
+userPassword: Gener@l02.2022
+
+dn: uid=user03,ou=Comunicacion,dc=general,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Usuario 03 Comunicacion
+sn: user03
+displayName: Comunicacion User03
+givenName: Comunicacion
+mail: user03@general.local
+userPassword: Gener@l03.2022
+
+dn: uid=user04,ou=Comunicacion,dc=general,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+cn: Usuario 04 Comunicacion
+sn: user04
+displayName: Usuarios 04 Comunicacion
+givenName: Comunicacion
+mail: user04@general.local
+userPassword: Gener@l04.2022
+
+#Create global group
+dn: cn=GGComunica,ou=Comunicacion,dc=general,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: GGPreguntas
+member: uid=user01,ou=Comunicacion,dc=general,dc=local
+member: uid=user02,ou=Comunicacion,dc=general,dc=local
+
+dn: cn=GGPrensa,ou=Comunicacion,dc=general,dc=local
+objectClass: groupOfNames
+objectClass: top
+cn: GGPrensa
+member: uid=user03,ou=Comunicacion,dc=general,dc=local
+member: uid=user04,ou=Comunicacion,dc=general,dc=local
