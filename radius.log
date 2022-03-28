@@ -1,0 +1,50 @@
+Mon Mar 28 16:05:38 2022 : Info: Debugger not attached
+Mon Mar 28 16:05:38 2022 : Info: systemd watchdog is disabled
+Mon Mar 28 16:05:38 2022 : Info: rlm_ldap: libldap vendor: OpenLDAP, version: 20449
+Mon Mar 28 16:05:38 2022 : Error: rlm_ldap (ldap): Bind with cn=admin,dc=general,dc=local to ldap://radius-openldap.general.local:389 failed: Can't contact LDAP server
+Mon Mar 28 16:05:38 2022 : Error: rlm_ldap (ldap): Opening connection failed (0)
+Mon Mar 28 16:05:38 2022 : Error: /etc/freeradius/3.0/mods-enabled/ldap[1]: Instantiation failed for module "ldap"
+Mon Mar 28 16:05:44 2022 : Info: Debugger not attached
+Mon Mar 28 16:05:44 2022 : Info: systemd watchdog is disabled
+Mon Mar 28 16:05:44 2022 : Info: rlm_ldap: libldap vendor: OpenLDAP, version: 20449
+Mon Mar 28 16:05:44 2022 : Warning: Please use tls_min_version and tls_max_version instead of disable_tlsv1
+Mon Mar 28 16:05:44 2022 : Warning: Please use tls_min_version and tls_max_version instead of disable_tlsv1_2
+Mon Mar 28 16:05:44 2022 : Info: Loaded virtual server <default>
+Mon Mar 28 16:05:44 2022 : Warning: Ignoring "sql" (see raddb/mods-available/README.rst)
+Mon Mar 28 16:05:44 2022 : Info: Loaded virtual server default
+Mon Mar 28 16:05:44 2022 : Info:  # Skipping contents of 'if' as it is always 'false' -- /etc/freeradius/3.0/sites-enabled/inner-tunnel:336
+Mon Mar 28 16:05:44 2022 : Info: Loaded virtual server inner-tunnel
+Mon Mar 28 16:05:44 2022 : Info: Ready to process requests
+Mon Mar 28 16:07:45 2022 : Auth: (7)   Login OK: [user02] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:07:45 2022 : Auth: (8) Login OK: [user02] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
+Mon Mar 28 16:07:55 2022 : Info: Signalled to terminate
+Mon Mar 28 16:07:55 2022 : Info: Exiting normally
+Mon Mar 28 16:08:10 2022 : Info: Debugger not attached
+Mon Mar 28 16:08:10 2022 : Info: systemd watchdog is disabled
+Mon Mar 28 16:08:10 2022 : Info: rlm_ldap: libldap vendor: OpenLDAP, version: 20449
+Mon Mar 28 16:08:10 2022 : Error: rlm_ldap (ldap): Bind with cn=admin,dc=general,dc=local to ldap://radius-openldap.general.local:389 failed: Can't contact LDAP server
+Mon Mar 28 16:08:10 2022 : Error: rlm_ldap (ldap): Opening connection failed (0)
+Mon Mar 28 16:08:10 2022 : Error: /etc/freeradius/3.0/mods-enabled/ldap[1]: Instantiation failed for module "ldap"
+Mon Mar 28 16:08:15 2022 : Info: Debugger not attached
+Mon Mar 28 16:08:15 2022 : Info: systemd watchdog is disabled
+Mon Mar 28 16:08:15 2022 : Info: rlm_ldap: libldap vendor: OpenLDAP, version: 20449
+Mon Mar 28 16:08:15 2022 : Warning: Please use tls_min_version and tls_max_version instead of disable_tlsv1
+Mon Mar 28 16:08:15 2022 : Warning: Please use tls_min_version and tls_max_version instead of disable_tlsv1_2
+Mon Mar 28 16:08:15 2022 : Info: Loaded virtual server <default>
+Mon Mar 28 16:08:15 2022 : Warning: Ignoring "sql" (see raddb/mods-available/README.rst)
+Mon Mar 28 16:08:15 2022 : Info: Loaded virtual server default
+Mon Mar 28 16:08:15 2022 : Info:  # Skipping contents of 'if' as it is always 'false' -- /etc/freeradius/3.0/sites-enabled/inner-tunnel:336
+Mon Mar 28 16:08:15 2022 : Info: Loaded virtual server inner-tunnel
+Mon Mar 28 16:08:15 2022 : Info: Ready to process requests
+Mon Mar 28 16:09:28 2022 : Auth: (6)   Login incorrect (mschap: MS-CHAP2-Response is incorrect): [user01] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:09:28 2022 : Auth: (7) Login incorrect (eap_peap: The users session was previously rejected: returning reject (again.)): [user01] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
+Mon Mar 28 16:10:00 2022 : Auth: (14)   Login incorrect (mschap: MS-CHAP2-Response is incorrect): [user01] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:10:00 2022 : Auth: (15) Login incorrect (eap_peap: The users session was previously rejected: returning reject (again.)): [user01] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
+Mon Mar 28 16:13:50 2022 : Auth: (22)   Login incorrect: [user03] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:13:50 2022 : Auth: (23) Login incorrect (eap_peap: The users session was previously rejected: returning reject (again.)): [user03] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
+Mon Mar 28 16:13:59 2022 : Auth: (30)   Login incorrect: [user03] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:13:59 2022 : Auth: (31) Login incorrect (eap_peap: The users session was previously rejected: returning reject (again.)): [user03] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
+Mon Mar 28 16:14:08 2022 : Auth: (38)   Login incorrect: [user03] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:14:08 2022 : Auth: (39) Login incorrect (eap_peap: The users session was previously rejected: returning reject (again.)): [user03] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
+Mon Mar 28 16:14:17 2022 : Auth: (46)   Login incorrect: [user03] (from client AP-Tp-Link-01 port 0 via TLS tunnel)
+Mon Mar 28 16:14:17 2022 : Auth: (47) Login incorrect (eap_peap: The users session was previously rejected: returning reject (again.)): [user03] (from client AP-Tp-Link-01 port 0 cli E2-F5-D8-12-97-BE)
